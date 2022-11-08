@@ -20,21 +20,16 @@
   padding: 1rem 1rem;
   background: #FFFFFF;
 }
-
-.cabecera{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  padding: 0;
-  height: 2.125rem;
-  font-weight: bold;
-}
-
 .cabecera-logo{
   width: 8.5rem;
   height: 1.5rem;
 }
+
+.sports_esports_black{
+  width: 1.3rem;
+  height: 1.5rem;
+}
+
 
 .label-search{
   display: flex;
