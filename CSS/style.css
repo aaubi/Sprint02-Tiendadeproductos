@@ -269,13 +269,14 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-top: 10px;
 }
 
 .input-campos{
   width: 475px;
   position: relative;
   height: 56px;
-  border: transparent;
+  border: solid;
   margin-bottom: 20px;
   box-sizing: content-box;
   padding: 0.5% 2.7%;
