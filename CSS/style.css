@@ -290,7 +290,7 @@
   width: 100%;
   font-family: 'Relaway', sans-serif;
   border: transparent;
-  margin-bottom: 20px;
+  
 }
 
 .button-campos{
@@ -298,8 +298,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 7px;
-  width: 10%s;
   background: #2A7AE4;
 }
 
