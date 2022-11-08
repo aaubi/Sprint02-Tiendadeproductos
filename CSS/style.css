@@ -272,12 +272,25 @@
 }
 
 .input-campos{
-  margin: 1.1rem 0 0.5rem 0;
+  width: 475px;
+  position: relative;
+  height: 56px;
+  border: transparent;
+  margin-bottom: 20px;
+  box-sizing: content-box;
+  padding: 0.5% 2.7%;
+}
+
+.input-campos:hover{
+  border-bottom: solid 2px var(--azul-destaque);
+  transition: linear 1s;
 }
 
 .textarea-campos{
-  margin: 1rem 0;
   width: 100%;
+  font-family: 'Relaway', sans-serif;
+  border: transparent;
+  margin-bottom: 20px;
 }
 
 .button-campos{
