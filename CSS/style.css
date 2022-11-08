@@ -21,13 +21,13 @@
   background: #FFFFFF;
 }
 .cabecera-logo{
-  width: 20.5rem;
+  width: 4.5rem;
   height: 1.5rem;
 }
 
 .sports_esports_black{
   width: 1rem;
-  height: 1.5rem;
+  height: 1.2rem;
 }
 
 
@@ -55,7 +55,7 @@
 .login button{
   border: solid 1px #2A7AE4;
   width: 7.3125rem;
-  height: 2.5rem;
+  height: 2rem;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
