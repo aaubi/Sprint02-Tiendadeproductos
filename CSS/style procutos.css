@@ -1,0 +1,509 @@
+.tudo{
+    max-width: 26.56rem;
+   min-width: 19.937rem;
+   background: #000000;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #FFFFFF;
+}
+
+.contenedor-cabecera{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  background: #FFFFFF;
+}
+
+.cabecera{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0;
+  height: 3.125rem;
+}
+
+.cabecera-logo{
+  width: 6.25rem;
+  height: 2rem;
+}
+
+.sports_esports_black{
+  width: 1.8rem;
+  height: 2rem;
+}
+
+.label-search{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+
+.input-search{
+  display: none;
+}
+
+.contenedor{
+  width: 182px;
+  height: 51px;
+  padding: 16px;  
+}
+
+.icon-search .icon__size{
+  background: #F5F5F5;  
+}
+
+.Button{
+  border: solid 1px #2A7AE4;
+  width: 8.3125rem;
+  height: 2.5rem;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.linea-productos{
+  width: 800px;
+}
+
+.banner{
+  max-width: 1360px;
+  width: 100%;
+  margin: 0 auto;  
+}
+
+.contenedor-banner{
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.banner .img-banner{
+  width: 100%;
+  height: 11.875rem;
+  position: absolute;
+}
+
+.texto {
+  width: 100%;
+  padding: 0 1rem 1rem;
+  position: absolute;
+  margin-top: 20%;
+  
+}
+
+.texto h1{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 1.8rem;
+  color: #FFFFFF;
+}
+
+.texto h2{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.7811rem;
+  line-height: 1.8rem;
+  color: #FFFFFF;
+}
+
+
+.boton-banner{
+  width: 8rem;
+  padding: 1rem
+  height: 2rem;
+  background: #2A7AE4;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 2rem;
+  color: #FFFFFF;
+}
+
+.contenedor-productos{
+  position: relative;
+}
+
+.linha-producto{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem 1rem;
+
+}
+.parte-superior{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: inherit;
+  align-items: baseline;
+  color: #FFFFFF;
+ margin-bottom: 0.8rem;
+}
+
+.productos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.producto{
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin: 1px;
+  width: calc(50% - 1px);
+  margin: 0.4rem;
+}
+
+.producto1{
+  display: none;
+}
+
+.producto2{
+  display: none;
+}
+
+.skill{
+  width: 100%;
+}
+
+.skill h3{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.button-producto{
+  background: #ffffff;
+  text-align: left;
+  border: none;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #2A7AE4;
+  padding-top: 5px; 
+  background: #000000;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  width: 100%;
+  background: #EAF2FD;
+}
+
+.conteudo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+}
+
+.esquerda{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+}
+
+.link{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #464646;
+}
+
+.Contato{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 100%;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.Contato h3{
+  width: 100%;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  width: 100%;
+  align-items: center;
+}
+
+.Contato .campos{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.input-campos{
+  margin: 1.1rem 0 0.5rem 0;
+}
+
+.textarea-campos{
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.button-campos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  width: 10%s;
+  background: #2A7AE4;
+}
+
+.derechos{
+  padding: 1rem;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 425px) {
+
+.tudo{
+    max-width: 768px;
+}
+
+.contenedor-cabecera{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  background: #FFFFFF;
+}
+
+.cabecera-logo{
+  width: 5.25rem;
+  height: 2rem;
+}
+
+.sports_esports_black{
+  width: 1.5rem;
+  height: 2rem;
+}
+
+.input-search{
+  display: inherit;
+  outline: none;
+  border: 0;
+  width: 130px;
+}
+
+.Button{
+  width: 8.3125rem; 
+}
+
+.texto {
+  width: 100%;
+  padding: 0 1rem 1rem;
+  position: absolute;
+  margin-top: 12%;  
+}
+
+.parte-superior{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: inherit;
+  align-items: baseline;
+  color: #FFFFFF;
+ margin-bottom: 0.8rem;
+}
+.productos{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.producto{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 1px;
+  width: calc(25% - 1px);
+}
+
+.producto1{
+  display: initial;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 1px;
+  width: calc(25% - 1px);
+  color: #ffffff;
+}
+
+.button-producto{
+  font-size: 15px;
+}
+
+.conteudo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+}
+
+.esquerda{
+  align-items: flex-start;
+}
+
+.link{
+  align-items: initial;
+}
+
+.link li{
+  text-align: left;
+}
+.Contato{
+  align-items: flex-start;
+}
+
+.Contato h3{
+  align-items: flex-start;
+}
+}
+
+@media (min-width: 768px) {
+
+.tudo{
+    max-width: 1360px;
+    margin: 0 auto;
+ }
+
+ .contenedor-cabecera{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  background: #FFFFFF;
+}
+
+.input-search{
+  background: transparent;
+  border: none;
+  display: hid;
+  width: 90%;
+  outline: none;
+}
+
+
+.texto {
+  width: 100%;
+  padding: 0 1rem 1rem;
+  position: absolute;
+  margin-top: 7%;  
+}
+
+.producto{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 1px;
+  width: calc(16% - 1px);
+}
+
+.producto1{
+  display: initial;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 1px;
+  width: calc(16% - 1px);
+}
+
+.producto2{
+  display: initial;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 1px;
+  width: calc(16% - 1px);
+  color: #ffffff;
+}
+
+.skill{
+  width: 100%;
+}
+
+.esquerda{
+  flex-direction: row;
+}
+
+.logo{
+  width: 70%;
+}
+
+.derechos{
+  padding: 1rem;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
