@@ -272,9 +272,8 @@
 }
 
 .input-campos{
-  width: 475px;
   position: relative;
-  height: 56px;
+  height: 20px;
   border: solid;
   margin-bottom: 20px;
   box-sizing: content-box;
@@ -289,6 +288,7 @@
 .textarea-campos{
   width: 100%;
   font-family: 'Relaway', sans-serif;
+  height: 40px;
 }
 
 .button-campos{
@@ -336,7 +336,7 @@
   border-radius: 20px;
   width: 40%;
   height: 40px;
-  background-color: lightblue;
+  background-color: #2A7AE4;
 }
 
 ..login button{
